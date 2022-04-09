@@ -1,0 +1,78 @@
+.MainApp {
+  /* background-image: url(Background.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.App {
+  width: 1140px;
+  margin-left: 380px;
+  /* background-color: rgb(205, 206, 223); */
+  border-radius: 10px;
+}
+.App-header {
+  height: 170px;
+  text-align: center;
+}
+.App-body {
+  /* background-color: rgb(205, 206, 223); */
+  height: 100%;
+  margin-left: 380px;
+  margin-top: 10px;
+  width: 1140px;
+  border-radius: 10px;
+}
+.Title {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  letter-spacing: 7px;
+}
+.Input {
+  margin-top: 40px;
+  margin-left: 18px;
+  width: 300px;
+  height: 30px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 20px;
+  /* background-color: rgb(205, 206, 223); */
+  color: rgb(0, 0, 0);
+}
+.Input:focus {
+  outline: none;
+}
+.movieImage {
+  border-radius: 5px;
+  margin-left: 2px;
+}
+.movieOverview {
+  font-size: 22px;
+  font-weight: 300;
+}
+.movieTitle {
+  font-weight: 600;
+}
+.movieTitle:hover,
+.movieTitle:active {
+  text-decoration: underline 1px;
+}
+.movieTitle:active {
+  opacity: 0.5;
+}
+
+.Movie:hover,
+.Movie:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #b32020;
+  cursor: pointer;
+}
+.Movie:active {
+  opacity: 0.5;
+}
